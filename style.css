@@ -89,9 +89,8 @@ p, h1, h2{
     position: relative;
     font-family: fontLucu;
     font-size: 40px;
-    top: 300px;
+    top: 1206px;
     overflow: hidden;
-    margin: 0;
     /* margin-top: 600px; */
 }
 
@@ -180,4 +179,57 @@ p, h1, h2{
     background-position: bottom;
     background-size: 1000px;
     overflow: visible;
+}
+
+.bag-2 h1 {
+    color: #FFC530;
+    font-family: fontLucu;
+    font-size: 200px;
+}
+
+.tanda_tanya2{
+    position: relative;
+    top: -110px;
+    left: 496px;
+width: 200px;
+}
+
+.tanda_tanya3{
+    position: relative;
+    top: 312px;
+    left: 124px;
+    width: 200px;
+
+}
+.tanda_tanya1{
+    position: relative;
+    top: 166px;
+    left: -265px;
+}
+.tanda_tanya4{
+    position: relative;
+    top: 94px;
+    left: 461px;
+    width: 200px;
+}
+.tanda_tanya5{
+    position: relative;
+    top: -1083px;
+    left: 164px;
+    width: 200px;
+}
+.tanda_tanya6{
+    position: relative;
+    top: -500px;
+    left: 0px;
+    width: 200px;
+}
+
+.bag-2 h1.naikturun {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
 }
