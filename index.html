@@ -8,7 +8,7 @@
     <link href="/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <section>
+    <section class="bag-1">
         <div class="full center awal">
             <div>
                 <h1 class="animate-text">
@@ -23,44 +23,38 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="bag-2">
         <div class="full center">
-            <p>The last time we met you ask what's the use<br>
-            of programming for ordinary people. This website<br>
+            <p>The last time we met you ask what's<br>the use
+            of programming for ordinary <br>people. This website<br>
             is the example.</p>
         </div>
     </section>
-    <section>
+    <section class="bag-3">
         <div class="full center">
-            <p>Hai</p>
+            <div>
+                <h1>Do you like flowers?</h1>
+                <p>You can answer through the chat<br>after you done scrolling</p>
+            </div>
         </div>
     </section>
-    <section>
+    <section class="bag-4">
         <div class="full center">
-            <p>Hai</p>
+            <p>I know that you got a lot of<br>assignments that you need to finish.<br>But do you want to <a>go out</a> with me<br>this weekend so you don't feel kinda<br>burnout?</p>
         </div>
     </section>
-    <section>
-        <div class="full center">
-            <p>Hai</p>
+    <section class="bag-5">
+        <div class="container-fluid full center">
+            <div class="text">
+                <h1>I know that you like some<br>poetry thingy. So here's some <br><a>poem</a> that i found.</h1>
+                <div id="poem-typed"> <p>"I wasnt looking for you <br> I was looking for me<br>but when i found you<br>i think i found myself too"</p></div>
+                <!-- <span id="typed" class="poem"></span> -->
+            </div>
+            <!-- <div>
+                <img src="/img/buku.png" alt="">
+            </div> -->
         </div>
     </section>
-    <section>
-        <div class="full center">
-            <p>Hai</p>
-        </div>
-    </section>
-    <section>
-        <div class="full center">
-            <p>Hai</p>
-        </div>
-    </section>
-    <section>
-        <div class="full center">
-            <p>Hai</p>
-        </div>
-    </section>
-
     <!-- Script -->
     <script>
         const txts=document.querySelector(".animate-text").children,
@@ -94,5 +88,28 @@
         window.onload=animateText;
   
 </script>
+
+<!-- <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+  <script>
+    const observer = new IntersectionObserver(entries => {
+  // Loop over the entries
+  entries.forEach(entry => {
+    // If the element is visible
+    if (entry.isIntersecting) {
+      // Add the animation class
+      entry.target.classList.add('typed');
+    }
+  });
+});
+
+observer.observe(document.querySelector('.poem'));
+  </script>
+
+<script>
+ var typed = new Typed(document.querySelectorAll('.typed'), {
+    stringsElement: document.querySelectorAll('.poem-typed'),
+    typeSpeed: 50,
+  });
+  </script> -->
 </body>
 </html>
