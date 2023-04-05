@@ -11,7 +11,14 @@
     <section>
         <div class="full center awal">
             <div>
-                <h1><a>Hello<br></a>Yasmine Octa Davina</h1>
+                <h1 class="animate-text">
+                    <span><a>Hello</a></span>
+                    <span><a>Bonjour</a></span>
+                    <span><a>你好</a></span>
+                    <span><a>مرحبًا</a></span>
+                    <span><a>Привет</a></span>
+                </h1>
+                <h1 class="nama">Yasmine Octa Davina</h1>
                 <img src="/img/patung.png" alt="">
             </div>
         </div>
@@ -53,5 +60,39 @@
             <p>Hai</p>
         </div>
     </section>
+
+    <!-- Script -->
+    <script>
+        const txts=document.querySelector(".animate-text").children,
+              txtsLen=txts.length;
+          let index=0;
+         const textInTimer=3000,
+               textOutTimer=2800;
+
+        function animateText() {
+           for(let i=0; i<txtsLen; i++){
+             txts[i].classList.remove("text-in","text-out");  
+           }
+           txts[index].classList.add("text-in");
+
+           setTimeout(function(){
+               txts[index].classList.add("text-out");              
+           },textOutTimer)
+
+           setTimeout(function(){
+
+             if(index == txtsLen-1){
+                 index=0;
+               }
+              else{
+                  index++;
+                }
+               animateText();
+           },textInTimer); 
+        }
+        
+        window.onload=animateText;
+  
+</script>
 </body>
 </html>
