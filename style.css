@@ -177,15 +177,7 @@ p, h1, h2{
 .bag-3{
     background-image: url(/img/bunga.png) ;
     background-repeat: no-repeat;
-    background-position-y: 2000px;
-    background-size: 1000px;
-    overflow: visible;
-}
-
-.bag-4{
-    background-image: url(/img/bunga.png) ;
-    background-repeat: no-repeat;
-    background-position-y: -120px;
+    background-position: bottom;
     background-size: 1000px;
     overflow: visible;
 }
