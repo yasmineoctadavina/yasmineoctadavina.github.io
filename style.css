@@ -1,0 +1,49 @@
+@font-face {
+  font-family: fontLucu;
+  src: url(/font/Arthead-Regular.otf);
+}
+
+.awal h1{
+    position: relative;
+    font-family: fontLucu;
+    font-size: 55px;
+    color: #FFC530;
+    line-height: 70px;
+    top: 300px;
+    /* margin-top: 600px; */
+}
+
+.awal a{
+    color: white;
+    font-size: 90px;
+}
+
+.awal img{
+    position: relative;
+    width: 60em;
+    top: 550px;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.full{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+    background-color: black;
+}
+
+p, h1, h2{
+    color: white;
+}
