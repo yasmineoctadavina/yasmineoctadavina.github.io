@@ -63,13 +63,13 @@
 .awal .bawah{
     position: relative;
     width: 60em;
-    top: 57px;
+    top: -55px;
 }
 
 .awal .atas{
     position: relative;
     width: 60em;
-    top: -31px;
+    top: 57px;
 }
 
 .center {
