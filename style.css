@@ -336,3 +336,8 @@ width: 200px;
       opacity: 1;
     }
 }
+
+.awal .suara{
+    position: relative;
+    top: -129px;
+}
