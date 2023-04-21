@@ -3,6 +3,11 @@
   src: url(/font/Arthead-Regular.otf);
 }
 
+@font-face {
+  font-family: fontRamadan;
+  src: url(/font/ramadan.ttf);
+}
+
 .awal h1{
     position: relative;
     font-family: fontLucu;
@@ -55,10 +60,16 @@
     }
 }
 
-.awal img{
+.awal .bawah{
     position: relative;
     width: 60em;
-    top: 510px;
+    top: 57px;
+}
+
+.awal .atas{
+    position: relative;
+    width: 60em;
+    top: -31px;
 }
 
 .center {
@@ -232,4 +243,96 @@ width: 200px;
 @-webkit-keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-30px); }
+}
+
+.awal .button{
+    position: relative;
+    top: 331px;
+    text-decoration: none;
+    font-family: fontLucu;
+    font-size: 50px;
+}
+
+/* .tulisan {
+    position: fixed;
+    justify-content: center;
+    display: flex;
+} */
+
+.awal .other-text{
+    font-family: fontRamadan;
+    color: white;
+    line-height: 50px;
+    top:130px;
+}
+
+.awal .other-text a{
+    line-height: 150px;
+    font-size: 100px;
+}
+
+.awal .other-text1{
+    font-family: fontRamadan;
+    color: white;
+    line-height: 50px;
+    top: 30px;
+}
+
+.awal .other-text1 a{
+    line-height: 150px;
+    font-size: 100px;
+}
+.awal .other-text2{
+    font-family: fontRamadan;
+    color: white;
+    line-height: 50px;
+    top: -46px;
+}
+
+.awal .other-text2 a{
+    line-height: 150px;
+    font-size: 100px;
+}
+
+.other-text{ position: absolute; }
+.other-text1{ position: absolute; }
+.other-text2{ position: absolute; }
+.other-text:nth-child(1){ animation-name: fade1; animation-fill-mode: both; animation-duration: 10s; animation-direction: alternate; }
+.other-text1:nth-child(1){animation-name: fade2;animation-fill-mode: both; animation-duration: 5s;animation-direction: alternate; animation-delay: 10s;}
+.other-text2:nth-child(1){animation-name: fade3;animation-fill-mode: both; animation-duration: 10s;animation-direction: alternate; animation-delay: 15s;}
+.other-text3:nth-child(1){animation-name: fade4;animation-fill-mode: both; animation-duration: 5s;animation-direction: alternate; animation-delay: 25s;}
+
+@keyframes fade1{
+    0%,100% {
+      opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }
+}
+
+@keyframes fade2{
+    0%,100% {
+        opacity: 0;
+      }
+      50%{
+        opacity: 1;
+      }
+}
+
+@keyframes fade3{
+  0%,100% {
+      opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }
+}
+@keyframes fade4{
+  0% {
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
 }

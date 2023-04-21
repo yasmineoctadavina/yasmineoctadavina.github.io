@@ -13,26 +13,20 @@
     <section class="bag-1">
         <div class="full center awal">
             <div>
-                <img src="/img/atas.png" alt="" class="atas">
-                <div>
-                    <h1 class="other-text"><a>Minal Aidin Wal Faidzin</a><br>Mohon maaf lahir dan batin</h1>
-                </div>
-                <div>
-                    <h1 class="other-text1">I'm sorry i can't give any <br> hampers or anything for today lebaran</h1>
-                </div>
-                <div>
-                    <h1 class="other-text2">Before you go i got some <br> voicenote for you to hear</h1>
-                </div>
-                <div>
-                    <audio controls class="other-text3">
-                    <source src="./audio/ramadan.mp3" type="audio/mpeg"> 
-                    </audio>
-                </div>
-                <img src="/img/bawah.png" alt="" class="bawah">
+                <h1 class="animate-text">
+                    <span><a>Hello</a></span>
+                    <span><a>Bonjour</a></span>
+                    <span><a>你好</a></span>
+                    <span><a>مرحبًا</a></span>
+                    <span><a>Привет</a></span>
+                </h1>
+                <h1 class="nama">Yasmine Octa Davina</h1>
+                <button></button>
+                <img src="/img/patung.png" alt="">
             </div>
         </div>
     </section>
-    <!-- <section class="bag-2">
+    <section class="bag-2">
         <div class="full center">
             <div class="kotak">
                 <p>The last time we met you ask what's<br>the use
@@ -79,10 +73,13 @@
             <div class="text">
                 <h1>I know that you like some<br>poetry thingy. So here's some <br><a>poem</a> that i found.</h1>
                 <div id="poem-typed"> <p>"I wasnt looking for you <br> I was looking for me<br>but when i found you<br>i think i found myself too"</p></div>
+                <!-- <span id="typed" class="poem"></span> -->
             </div>
+            <!-- <div>
+                <img src="/img/buku.png" alt="">
+            </div> -->
         </div>
-    </section> -->
-
+    </section>
     <!-- Script -->
     <script>
         const txts=document.querySelector(".animate-text").children,
@@ -116,6 +113,29 @@
         window.onload=animateText;
   
 </script>
+
+<!-- <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+  <script>
+    const observer = new IntersectionObserver(entries => {
+  // Loop over the entries
+  entries.forEach(entry => {
+    // If the element is visible
+    if (entry.isIntersecting) {
+      // Add the animation class
+      entry.target.classList.add('typed');
+    }
+  });
+});
+
+observer.observe(document.querySelector('.poem'));
+  </script>
+
+<script>
+ var typed = new Typed(document.querySelectorAll('.typed'), {
+    stringsElement: document.querySelectorAll('.poem-typed'),
+    typeSpeed: 50,
+  });
+  </script> -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
